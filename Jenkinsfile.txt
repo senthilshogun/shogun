@@ -4,14 +4,11 @@ pipleline{
 			stage('One'){
 				echo Hello
 				}
-			}
 			stage('Two'){
 				input('do u wanna proceed')
 				}
-			}
 			stage('Three'){
 				echo Hello
 				}
 			}
 	}
-}
