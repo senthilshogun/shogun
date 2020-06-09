@@ -1,13 +1,13 @@
-pipleline{
+pipleline {
 	agent any
-		stages{
-			stage('One'){
+		stages {
+			stage('One') {
 				echo 'Hello'
 				}
-			stage('Two'){
+			stage('Two') {
 				input('do u wanna proceed')
 				}
-			stage('Three'){
+			stage('Three') {
 				echo 'Hello'
 				}
 			}
